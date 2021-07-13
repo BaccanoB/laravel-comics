@@ -9,6 +9,16 @@
        
     </head>
     <body>
-        @include('partials/header');
+        @include('partials/header')
+        <main>
+            <div class="container">
+                @foreach ($comics as $comic)
+                <div class="card">
+                    <img src="{{ $comic["thumb"] }}" alt="{{ $comic["title"] }}">
+                    <p>{{ $comic["series"] }}</p>
+                </div>
+            @endforeach 
+            </div>
+        </main>
     </body>
 </html>
