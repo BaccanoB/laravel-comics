@@ -2,6 +2,27 @@ header {
     width: 100%;
 }
 
+#blu_line {
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    background-color: #0281F8;
+}
+#blu_line div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 40px;
+}
+#blu_line p {
+    margin:0 20px;
+}
+
+
 #container {
     width: 100%;
     height: 350px;
@@ -10,6 +31,8 @@ header {
 }
 
 nav {
+    width: 70%;
+    margin: 0 auto;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -28,4 +51,6 @@ ul {
 header li{
     display: inline-block;
     margin: 0 10px;
+    font-size: 15px;
+    font-weight: bolder;
 }

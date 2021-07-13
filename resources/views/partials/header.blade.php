@@ -1,4 +1,10 @@
-<header> 
+<header>
+    <div id="blu_line">
+        <div>
+            <p>Dc power&#x2120; visa &copy;</p>
+            <p>additional dc sites</p>
+        </div>
+    </div> 
     <nav>
         <img src="{{asset('img/dc-logo.png')}}" alt="">
         <ul>
