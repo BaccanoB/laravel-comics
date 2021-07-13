@@ -10,6 +10,7 @@
     </head>
     <body>
         @include('partials/header')
+
         <main>
             <div class="container">
                 @foreach ($comics as $comic)
@@ -20,5 +21,7 @@
             @endforeach 
             </div>
         </main>
+
+        @include('partials/footer')
     </body>
 </html>
